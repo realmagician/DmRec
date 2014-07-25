@@ -1,0 +1,22 @@
+﻿Build started 6/25/2014 10:27:35 PM.
+     1>Project "D:\VC\DmFmRecTag\DmFmRecTag\DmFmRecTag.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DmItem.cpp Source.cpp
+         Source.cpp
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(164): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(322): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vc\dmfmrectag\dmfmrectag\source.cpp(326): warning C4018: '<' : signed/unsigned mismatch
+         DmItem.cpp
+         Generating Code...
+       Link:
+         D:\visual studio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VC\DmFmRecTag\Debug\DmFmRecTag.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VC\DmFmRecTag\Debug\DmFmRecTag.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VC\DmFmRecTag\Debug\DmFmRecTag.lib" /MACHINE:X86 Debug\DmItem.obj
+         Debug\Source.obj
+         DmFmRecTag.vcxproj -> D:\VC\DmFmRecTag\Debug\DmFmRecTag.exe
+     1>Done Building Project "D:\VC\DmFmRecTag\DmFmRecTag\DmFmRecTag.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.16
